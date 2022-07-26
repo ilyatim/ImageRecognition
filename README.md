@@ -14,4 +14,7 @@ similar images in order to develop a functional to help volunteers
 
 ### Preview
 
-![picture](data/images/Preview.png)
+<p align="center">
+<img src="data/images/Preview.png" width="50%">
+<img src="data/images/PreviewWithInfo.png" width="50%">
+</p>
