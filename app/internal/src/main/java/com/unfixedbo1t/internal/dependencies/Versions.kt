@@ -1,6 +1,7 @@
 package com.unfixedbo1t.internal.dependencies
 
 object Versions {
+    const val onnxRuntimeVersion = "1.12.2"
     const val composeVersion = "1.2.0"
     const val composeActivityVersion = "1.5.0"
     const val lifecycleKtxVersion = "2.5.0"

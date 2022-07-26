@@ -68,4 +68,8 @@ dependencies {
         debugImplementation(composeTooling)
         debugImplementation(composeTestManifest)
     }
+
+    dep.other.apply {
+        implementation(onnxRuntime)
+    }
 }
