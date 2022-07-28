@@ -70,6 +70,6 @@ dependencies {
     }
 
     dep.other.apply {
-        implementation(onnxRuntime)
+        //implementation(onnxRuntime)
     }
 }
