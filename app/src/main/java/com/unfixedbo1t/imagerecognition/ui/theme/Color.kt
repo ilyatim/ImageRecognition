@@ -7,7 +7,6 @@ val Purple500 = Color(0xFF6200EE)
 val Purple700 = Color(0xFF3700B3)
 val Teal200 = Color(0xFF03DAC5)
 
-
 object DarkThemeColors : ColorValues {
     override val primary: Color
         get() = TODO("Not yet implemented")
@@ -60,7 +59,6 @@ object LightThemeColors : ColorValues {
         get() = TODO("Not yet implemented")
     override val onError: Color
         get() = TODO("Not yet implemented")
-
 }
 
 interface ColorValues {
@@ -76,4 +74,9 @@ interface ColorValues {
     val onBackground: Color
     val onSurface: Color
     val onError: Color
+}
+
+fun getColorsSystem(isNightMode: Boolean): ColorValues {
+    return if (isNightMode) DarkThemeColors
+    else LightThemeColors
 }
