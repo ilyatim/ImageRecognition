@@ -15,4 +15,7 @@ object Versions {
     const val jUnitVersion = "4.13.2"
     const val jUnitExtensionVersion = "1.1.3-rc01"
     const val espressoVersion = "3.4.0"
+    const val cameraxVersion = "1.1.0"
+    const val cameraViewVersion = "1.1.0"
+    const val permissionVersion  = "0.25.0"
 }

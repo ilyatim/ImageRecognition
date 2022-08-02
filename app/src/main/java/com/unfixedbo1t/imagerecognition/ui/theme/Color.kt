@@ -6,59 +6,60 @@ val Purple200 = Color(0xFFBB86FC)
 val Purple500 = Color(0xFF6200EE)
 val Purple700 = Color(0xFF3700B3)
 val Teal200 = Color(0xFF03DAC5)
+val ErrorLight = Color(0xFFB00020)
 
 object DarkThemeColors : ColorValues {
     override val primary: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple200
     override val primaryVariant: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple500
     override val secondary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Blue
     override val secondaryVariant: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple700
     override val background: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val surface: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val error: Color
-        get() = TODO("Not yet implemented")
+        get() = ErrorLight
     override val onPrimary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val onSecondary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val onBackground: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Black
     override val onSurface: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Black
     override val onError: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
 }
 
 object LightThemeColors : ColorValues {
     override val primary: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple200
     override val primaryVariant: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple500
     override val secondary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Blue
     override val secondaryVariant: Color
-        get() = TODO("Not yet implemented")
+        get() = Purple700
     override val background: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val surface: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val error: Color
-        get() = TODO("Not yet implemented")
+        get() = ErrorLight
     override val onPrimary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val onSecondary: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
     override val onBackground: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Black
     override val onSurface: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.Black
     override val onError: Color
-        get() = TODO("Not yet implemented")
+        get() = Color.White
 }
 
 interface ColorValues {

@@ -48,6 +48,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":ui"))
     dep.test.apply {
         testImplementation(jUnit)
         androidTestImplementation(jUnitExtension)
@@ -70,6 +71,7 @@ dependencies {
     }
 
     dep.other.apply {
+        implementation(accompanistPermission)
         //implementation(onnxRuntime)
     }
 }
