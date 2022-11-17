@@ -10,4 +10,4 @@ rootProject.name = "ImageRecognition"
 
 include(":app")
 includeBuild("app/internal")
-include(":ui")
+include(":uikit")

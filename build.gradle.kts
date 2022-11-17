@@ -3,7 +3,6 @@ plugins {
     id("com.android.library") version "7.2.1" apply false
     id("org.jetbrains.kotlin.android") version "1.7.0" apply false
     id("org.jetbrains.kotlin.jvm") version "1.7.0" apply false
-    id("dependencies") version "0.0.1" apply false
     /**
      * To check new versions of dependencies, you need to perform the following algorithm of actions.
      * - Open gradle in the side menu on the right
@@ -13,18 +12,11 @@ plugins {
      * of dependencies will be displayed in the build
      */
     id("name.remal.check-dependency-updates") version "1.5.0"
+    id("org.jlleitschuh.gradle.ktlint") version "10.3.0" apply false
 }
 
-buildscript {
-    val hiltVersion = "2.42"
-    val kotlinVersion = "1.7.0"
-    val gradleVersion = "7.2.0"
-    dependencies {
-        //classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
-        //classpath("com.android.tools.build:gradle:$gradleVersion")
-        //classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        //classpath("com.google.dagger:hilt-android-gradle-plugin:$hiltVersion")
-    }
+subprojects {
+    apply(plugin = "org.jlleitschuh.gradle.ktlint")
 }
 
 tasks.register("clean", Delete::class) {

@@ -35,4 +35,10 @@ object Ui {
      * @see [https://mvnrepository.com/artifact/androidx.compose.ui/ui-test-manifest]
      */
     const val composeTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.composeTestManifestVersion}"
+
+    /**
+     * ConstraintLayout for Jetpack Compose
+     * @see [https://mvnrepository.com/artifact/androidx.constraintlayout/constraintlayout-compose]
+     */
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout-compose:${Versions.composeConstraintLayout}"
 }

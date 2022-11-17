@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ImageRecognition</string>
+    <string name="camera_permission_require">"Camera permission required for this feature to be available. /n Please grant the permission"</string>
+    <string name="camera_important_for_app_text">The camera is important for this app. Please grant the permission.</string>
+    <string name="request_permission">Request permission</string>
 </resources>

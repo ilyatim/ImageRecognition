@@ -7,6 +7,7 @@ object Versions {
     const val lifecycleKtxVersion = "2.5.0"
     const val coreKtxVersion = "1.8.0"
     const val composeTestManifestVersion = "1.2.0-rc03"
+    const val composeConstraintLayout = "1.0.1"
     const val composeToolingVersion = "1.2.0-rc03"
     const val composeToolingPreviewVersion = "1.2.0-rc03"
     const val composeUiVersion = "1.2.0-rc03"

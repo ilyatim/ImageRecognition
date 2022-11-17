@@ -7,4 +7,5 @@ object Android {
     const val targetSdk = 32
     const val compileSdk = 32
     const val versionCode = 1
+    const val kotlinCompileExtVersion = "1.3.2"
 }

@@ -33,34 +33,23 @@ class MainActivity : ComponentActivity() {
                         val textToShow = if (status.shouldShowRationale) {
                             // If the user has denied the permission but the rationale can be shown,
                             // then gently explain why the app requires this permission
-                            "The camera is important for this app. Please grant the permission."
+                            getString(R.string.camera_important_for_app_text)
                         } else {
                             // If it's the first time the user lands on this feature, or the user
                             // doesn't want to be asked again for this permission, explain that the
                             // permission is required
-                            "Camera permission required for this feature to be available. " +
-                                "Please grant the permission"
+                            getString(R.string.camera_permission_require)
                         }
                         Text(textToShow)
-                        Button(onClick = { cameraPermissionState.launchPermissionRequest() }) {
-                            Text("Request permission")
+                        val onClick = {
+                            cameraPermissionState.launchPermissionRequest()
+                        }
+                        Button(onClick = onClick) {
+                            Text(getString(R.string.request_permission))
                         }
                     }
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    MainTheme {
-        Greeting("Android")
     }
 }
