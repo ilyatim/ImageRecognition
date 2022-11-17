@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package com.unfixedbo1t.internal.plugins
 
 import com.android.build.api.dsl.LibraryExtension
