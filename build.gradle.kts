@@ -3,6 +3,7 @@ plugins {
     id("com.android.library") version "7.2.1" apply false
     id("org.jetbrains.kotlin.android") version "1.7.0" apply false
     id("org.jetbrains.kotlin.jvm") version "1.7.0" apply false
+    id("com.google.dagger.hilt.android") version "2.42" apply false
     /**
      * To check new versions of dependencies, you need to perform the following algorithm of actions.
      * - Open gradle in the side menu on the right

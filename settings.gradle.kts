@@ -9,5 +9,5 @@ pluginManagement {
 rootProject.name = "ImageRecognition"
 
 include(":app")
-includeBuild("app/internal")
 include(":uikit")
+includeBuild("app/internal")

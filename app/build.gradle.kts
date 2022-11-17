@@ -1,7 +1,7 @@
 plugins {
     id("com.unfixedbo1t.imagerecognition.android.application.compose")
     id("com.unfixedbo1t.imagerecognition.android.application")
-    //id("com.unfixedbo1t.imagerecognition.android.hilt")
+    id("com.unfixedbo1t.imagerecognition.android.hilt")
 }
 
 android {
